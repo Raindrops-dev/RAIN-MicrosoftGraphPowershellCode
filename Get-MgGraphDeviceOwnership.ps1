@@ -84,7 +84,6 @@ else {
                 DeviceOwnerDisplayName        = $user.DisplayName
                 ApproximateLastLogonTimestamp = $DeviceHashTable.Item('approximateLastSignInDateTime')
             }
-            Write-Output "------------------------------------------"
         }
     }
 
